@@ -10,8 +10,9 @@
 # default for csharp files.
 # Note: This is only used by command line
 ###############################################################################
-*.cs     diff=csharp
-
+#*.cs     diff="iconv -f utf-16 -t utf-8"
+*.cs text working-tree-encoding=UTF-16LE eol=CRLF
+#*.cs text working-tree-encoding=UTF-16 eol=LF
 ###############################################################################
 # Set the merge driver for project and solution files
 #
